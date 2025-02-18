@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+$myFont: Inter, sans-serif;
+
+body {
+    font-family: $myFont;
+}
+
+nav {
+    li {
+        list-style-type: none;
+    }
+}
+
+// BEM
+.list {
+    color: #bb5353;
+}
+
+.list--state-green {
+    color: #4adf14;
+}
+
+// Notes ahh
+// @import for global use of scss files 
+// @mixin is for reusable css properties and classes can also have parameters and uses @include
+// usually mixins are used for dynamic properties
+// @extend is similar to mixin however is mostly used for static classes
