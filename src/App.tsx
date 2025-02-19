@@ -1,16 +1,15 @@
 import './styles/main.scss'
+import { BrowserRouter, Routes, Route } from 'react-router'
+
+import Home from './pages/home'
 
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-
-      <nav>
-        <li className='list'>sample</li>
-        <li className='list--state-green'>sample</li>
-        <li>sample</li>
-      </nav>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
