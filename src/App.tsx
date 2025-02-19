@@ -15,8 +15,9 @@ function App() {
 
         <Route path="user" element={<UserLayout />}>
           <Route index element={<Post />} />
-          
         </Route>
+
+        <Route path="*" element={<p>Not found.</p>} />
       </Routes>
     </BrowserRouter>
   );

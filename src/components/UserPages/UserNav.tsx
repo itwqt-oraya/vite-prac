@@ -7,12 +7,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
 } from "reactstrap";
 
 export default function UserNav() {
@@ -28,9 +22,7 @@ export default function UserNav() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink>
-                <Link to={`/`}>Components</Link>
-              </NavLink>
+              <Link to={`/`}>Components</Link>
             </NavItem>
           </Nav>
         </Collapse>
