@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from 'react'
 
 // HOC Example
@@ -14,4 +15,15 @@ export default function index() {
     return (
         withSomething(SomeComponent)
     )
+=======
+import React from "react";
+import GoogleLogin from "../../components/Login";
+
+export default function index() {
+  return (
+    <>
+      <GoogleLogin />
+    </>
+  );
+>>>>>>> Stashed changes
 }
