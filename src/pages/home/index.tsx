@@ -1,17 +1,11 @@
-import React from 'react'
+import React from "react";
 
 // HOC Example
 const withSomething = (Component: any) => {
+  return <Component />;
+};
 
-    return (
-        <Component />
-    )
-}
-
-const SomeComponent = () => <button className='fw-bold'>Click me!</button>
+const SomeComponent = () => <button className="fw-bold">Home!</button>;
 export default function index() {
-
-    return (
-        withSomething(SomeComponent)
-    )
+  return withSomething(SomeComponent);
 }
